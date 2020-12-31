@@ -65,12 +65,12 @@ Lastly `/public` and `/src` are the two puzzle pieces for your React front-end. 
 ### Setting up Heroku (once)
 
 ```bash
-heroku create hopeful-project-name
+heroku create linkerator-deploy
 
 heroku addons:create heroku-postgresql:hobby-dev
 ```
 
-This creates a heroku project which will live at https://hopeful-project-name.herokuapp.com (note, you should change this to be relevant to your project).
+This creates a heroku project which will live at https://linkerator-deploy.herokuapp.com (note, you should change this to be relevant to your project).
 
 It will also create a postgres database for you, on the free tier.
 
