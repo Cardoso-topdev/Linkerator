@@ -1,0 +1,25 @@
+{
+    "development": {
+        "username": "postgres",
+        "password": null,
+        "database": "linkerator",
+        "host": "localhost",
+        "dialect": "postgres",
+        "operatorAliases" : false
+    },
+    "test": {
+        "username": "postgres",
+        "password": null,
+        "database": "linkerator",
+        "host": "localhost",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "postgres",
+        "password": null,
+        "database": "linkerator",
+        "dialect": "postgres",
+        "operatorAliases" : false,
+        "use_env_variable": "DATABASE_URL"
+    }
+}
